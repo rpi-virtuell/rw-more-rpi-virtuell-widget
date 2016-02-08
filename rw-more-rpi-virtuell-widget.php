@@ -1,8 +1,4 @@
 <?php
-ini_set("display_errors", 'on');
-	ini_set('display_errors',1);
-	ini_set('display_startup_errors',1);
-	ini_set('error_reporting', E_ALL);
 /*
 Plugin Name: RW Mehr rpi-virtuell Widget
 Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
