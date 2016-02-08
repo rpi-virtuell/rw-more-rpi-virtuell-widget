@@ -20,15 +20,15 @@ class RW_More_Rpi_Virtuell_Widget_Core extends WP_Widget {
         register_widget( 'RW_More_Rpi_Virtuell_Widget_Core' );
     }
 
-	function __construct() {
+    function __construct() {
         parent::__construct(
         // Base ID of your widget
-        'RW_More_Rpi_Virtuell_Widget_Core',
+            'RW_More_Rpi_Virtuell_Widget_Core',
 
-        // Widget name will appear in UI
-           __('More Rpi Virtuell', 'rw_more_rpi_virtuell_widget_domain'),
+            // Widget name will appear in UI
+            __('More Rpi Virtuell', 'rw_more_rpi_virtuell_widget_domain'),
 
-        // Widget description
+            // Widget description
             array( 'description' => __( 'Sample widget based on WPBeginner Tutorial', 'rw_more_rpi_virtuell_widget_domain' ), )
         );
     }
@@ -36,16 +36,17 @@ class RW_More_Rpi_Virtuell_Widget_Core extends WP_Widget {
     // Creating widget front-end
     // This is where the action happens
     public function widget( $args, $instance ) {
+        if(! isset($instance['title'])) $instance['title']='' ;
         $title = apply_filters( 'widget_title', $instance['title'] );
         // before and after widget arguments are defined by themes
         echo $args['before_widget'];
         if ( ! empty( $title ) )
             echo $args['before_title'] . $title . $args['after_title'];
 
-    // This is where you run the code and display the output
-        
-		//echo RW_More_Rpi_Virtuell_Widget::$plugin_path;
-		//echo __( 'Hello, World!', 'rw_more_rpi_virtuell_widget_domain' );
+        // This is where you run the code and display the output
+
+        //echo RW_More_Rpi_Virtuell_Widget::$plugin_path;
+        //echo __( 'Hello, World!', 'rw_more_rpi_virtuell_widget_domain' );
         include_once ( RW_More_Rpi_Virtuell_Widget::$plugin_path.'/content.php' );
         echo $args['after_widget'];
     }
@@ -58,7 +59,7 @@ class RW_More_Rpi_Virtuell_Widget_Core extends WP_Widget {
         else {
             $title = __( 'Dienste von rpi-virtuell', 'rw_more_rpi_virtuell_widget_domain' );
         }
-    // Widget admin form
+        // Widget admin form
         ?>
         <p>
             <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
