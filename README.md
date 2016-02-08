@@ -5,5 +5,3 @@ http://about.rpi-virtuell.de/
 
 Die statischen Inhalte des Widgets werden in der Datei content.php verwaltet. 
 
-
-   

@@ -26,6 +26,21 @@
             <img class="rw-more-widget-img" src="<?php echo RW_More_Rpi_Virtuell_Widget::$plugin_url; ?>/images/groups.png" width="80">
         </a>
     </div>
+    <div class="rw-more-widget-button">
+        <a class="rw-more-widget-img-holder" href="http://www.rpi-virtuell.net/material" title="Material">
+            <img class="rw-more-widget-img" src="<?php echo RW_More_Rpi_Virtuell_Widget::$plugin_url; ?>/images/material.png" width="80">
+        </a>
+    </div>
+    <div class="rw-more-widget-button">
+        <a class="rw-more-widget-img-holder" href="http://open.rpi-virtuell.de" title="Offene Kurse">
+            <img class="rw-more-widget-img" src="<?php echo RW_More_Rpi_Virtuell_Widget::$plugin_url; ?>/images/courses.png" width="80">
+        </a>
+    </div>
+    <div class="rw-more-widget-button">
+        <a class="rw-more-widget-img-holder" href="http://www.task-book.de/" title="Support">
+            <img class="rw-more-widget-img" src="<?php echo RW_More_Rpi_Virtuell_Widget::$plugin_url; ?>/images/support.png" width="80">
+        </a>
+    </div>
 </div>
 <div class="x-clear"></div>
 <div class="rw-more-widget-footer-button">
