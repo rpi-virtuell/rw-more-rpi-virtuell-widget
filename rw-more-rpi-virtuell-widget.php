@@ -3,7 +3,7 @@
 Plugin Name: RW Mehr rpi-virtuell Widget
 Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
 Description: Stellt ein Widget zur Verfügung, dass zu anderen Diensten von rpi-virtuell verlinkt
-Version: 0.1
+Version: 0.2
 Author: Joachim Happel
 Author URI: http://joachim-happel.de
 License: A "Slug" license name e.g. GPL2
@@ -22,7 +22,7 @@ License: A "Slug" license name e.g. GPL2
  * Plugin Name:       Mehr Rpi Virtuell Widget
  * Plugin URI:        https://github.com/rpi-virtuell/rw-more-rpi-virtuell-widget
  * Description:       Stellt ein Widget zur Verfügung, dass zu anderen Diensten von rpi-virtuell verlinkt
- * Version:           0.1
+ * Version:           0.2
  * Author:            Joachim Happel
  * Author URI:        http://joachim-happel.de
  * License:           GNU General Public License v2
@@ -45,7 +45,7 @@ class RW_More_Rpi_Virtuell_Widget {
      * @since   0.0.1
      * @access  public
      */
-    static public $version = "0.0.1";
+    static public $version = "0.2";
 
     /**
      * Singleton object holder
