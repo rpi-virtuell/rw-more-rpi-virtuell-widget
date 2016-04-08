@@ -50,7 +50,7 @@
         </a>
     </div>
     <div class="rw-more-widget-button">
-        <a class="rw-more-widget-img-holder" href="http://www.task-book.de/" title="Support">
+        <a class="rw-more-widget-img-holder" href="https://github.com/rpi-virtuell/reliwerk/issues" title="Support">
             <img class="rw-more-widget-img" src="<?php echo RW_More_Rpi_Virtuell_Widget::$plugin_url; ?>/images/support.png" width="80">
         </a>
     </div>
