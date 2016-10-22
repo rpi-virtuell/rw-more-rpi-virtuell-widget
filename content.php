@@ -40,6 +40,11 @@
         </a>
     </div>
     <div class="rw-more-widget-button">
+        <a class="rw-more-widget-img-holder" href="http://blogs.rpi-virtuell.de/reformation" title="rpi!-Artothek">
+            <img class="rw-more-widget-img" src="<?php echo RW_More_Rpi_Virtuell_Widget::$plugin_url; ?>/images/reformation.png" width="80">
+        </a>
+    </div>
+    <div class="rw-more-widget-button">
         <a class="rw-more-widget-img-holder" href="http://open.rpi-virtuell.de" title="Offene Kurse">
             <img class="rw-more-widget-img" src="<?php echo RW_More_Rpi_Virtuell_Widget::$plugin_url; ?>/images/courses.png" width="80">
         </a>
