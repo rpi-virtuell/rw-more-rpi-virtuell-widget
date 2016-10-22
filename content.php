@@ -40,7 +40,7 @@
         </a>
     </div>
     <div class="rw-more-widget-button">
-        <a class="rw-more-widget-img-holder" href="http://blogs.rpi-virtuell.de/reformation" title="rpi!-Artothek">
+        <a class="rw-more-widget-img-holder" href="http://blogs.rpi-virtuell.de/reformation" title="Material-Service zum Reformationsjubiläum 2017">
             <img class="rw-more-widget-img" src="<?php echo RW_More_Rpi_Virtuell_Widget::$plugin_url; ?>/images/reformation.png" width="80">
         </a>
     </div>
